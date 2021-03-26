@@ -1,0 +1,5 @@
+.root {
+  @apply flex items-center p-2 ;
+
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.root {
+  @apply flex flex-col;
+
+  height: 767px;
+  background-image: linear-gradient(rgba(33, 35, 34, 0.3), rgba(33, 35, 34, 0.3)),
+    url('../../../assets/images/bg-image-1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.contain {
+  @apply container text-white flex-grow flex items-center;
+
+  margin-top: -112px;
+}
+
+.caption {
+  @apply font-PT text-20px;
+}

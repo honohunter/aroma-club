@@ -1,0 +1,35 @@
+.root {
+  @apply grid grid-cols-3 py-8 container z-10;
+}
+
+.logoContainer {
+  @apply flex  items-center justify-center;
+}
+
+.leftContainer {
+  @apply flex items-center;
+
+  margin: 0 -16px;
+}
+
+.navigationItem {
+  @apply font-GP text-13px uppercase;
+
+  padding: 8px 16px;
+}
+
+.rightContainer {
+  @apply flex items-center justify-end;
+}
+
+.alt {
+  @apply text-white;
+}
+
+.langSelector {
+  @apply bg-transparent mr-2 font-GP text-13px uppercase;
+}
+
+.selectItem {
+  @apply text-black;
+}

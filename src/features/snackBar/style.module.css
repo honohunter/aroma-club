@@ -1,0 +1,27 @@
+.root {
+  @apply flex items-center py-1 bg-black-900 text-white font-GS text-12px;
+
+  height: 32px;
+}
+
+.main {
+  @apply grid grid-cols-5 container;
+}
+
+.middleContainer {
+  @apply flex  items-center justify-center col-span-3;
+}
+
+.leftContainer {
+  @apply flex items-center;
+
+  margin: 0 -16px;
+}
+
+.navigationItem {
+  padding: 8px 16px;
+}
+
+.rightContainer {
+  @apply flex items-center justify-end;
+}

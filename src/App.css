@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GothamPro-Bold';
+  src: local('GothamPro-Bold'), url('./assets/fonts/GothamPro-Bold.eot');
+  src: local('GothamPro-Bold'), url('./assets/fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/GothamPro-Bold.woff') format('woff'),
+    url('./assets/fonts/GothamPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamSSm-Book';
+  src: local('GothamSSm-Book'), url('./assets/fonts/GothamSSm-Book.eot');
+  src: local('GothamSSm-Book'), url('./assets/fonts/GothamSSm-Book.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/GothamSSm-Book.woff') format('woff'),
+    url('./assets/fonts/GothamSSm-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSerif-Italic';
+  src: local('PTSerif-Italic'), url('./assets/fonts/PTSerif-Italic.eot');
+  src: local('PTSerif-Italic'), url('./assets/fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/PTSerif-Italic.woff') format('woff'),
+    url('./assets/fonts/PTSerif-Italic.ttf') format('truetype');
+}
+
+h1 {
+  @apply text-34px font-GP;
+}
+
+button {
+  @apply focus:outline-none;
+}
+
+select {
+  @apply focus:outline-none;
+}

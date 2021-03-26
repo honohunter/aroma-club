@@ -1,0 +1,12 @@
+.root {
+  @apply flex items-center text-black pb-2 border-b border-current bg-transparent;
+}
+
+.textSmall {
+  @apply font-GP uppercase text-14px;
+}
+
+.icon {
+  margin-left: 20px;
+  height: 13px;
+}
