@@ -1,2 +1,7 @@
-.root {
+.caption {
+  @apply text-20px;
+}
+
+.gridContainer {
+  @apply py-10;
 }

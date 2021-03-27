@@ -1,0 +1,23 @@
+.root {
+  @apply flex flex-row;
+
+  height: 543px;
+}
+
+.leftSection {
+  @apply flex flex-col justify-center p-16;
+
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  flex-basis: 100%;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.imageContainer {
+  display: flex;
+  flex-basis: 130%;
+}

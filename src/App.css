@@ -26,8 +26,14 @@
     url('./assets/fonts/PTSerif-Italic.ttf') format('truetype');
 }
 
+body {
+  @apply text-black-900;
+}
+
 h1 {
   @apply text-34px font-GP;
+
+  line-height: 40px;
 }
 
 button {
@@ -36,4 +42,12 @@ button {
 
 select {
   @apply focus:outline-none;
+}
+
+i {
+  @apply font-PT;
+}
+
+.paragraph {
+  @apply mb-6;
 }

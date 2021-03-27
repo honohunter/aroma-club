@@ -1,0 +1,19 @@
+.root {
+  @apply py-8 border-t-2;
+}
+
+.main {
+  @apply container flex flex-row items-center justify-center;
+}
+
+.image {
+  height: 71px;
+}
+
+.input {
+  @apply h-12 border border-black font-GS text-12px px-4 placeholder-current focus:outline-none;
+}
+
+.button {
+  @apply flex items-center justify-center bg-black-900 font-GP text-12px text-white uppercase p-3;
+}

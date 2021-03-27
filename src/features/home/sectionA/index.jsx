@@ -2,19 +2,15 @@ import React from 'react';
 
 import styles from './style.module.css';
 
-import SnackBar from '../../snackBar';
 import Navbar from '../../navbar';
 
 export default function SectionA() {
   return (
     <section className={styles.root}>
-      <SnackBar />
-
-      <Navbar alt />
-
+      <Navbar alt/>
       <div className={styles.contain}>
-        <div>
-          <p className={styles.caption}>Our story</p>
+        <div className="p-9">
+          <i className={styles.caption}>Our story</i>
           <h1>
             Great coffee beans, <br />
             made simple…

@@ -6,6 +6,10 @@
   @apply font-GP uppercase text-14px;
 }
 
+.textLarge {
+  @apply font-GP uppercase text-18px;
+}
+
 .icon {
   margin-left: 20px;
   height: 13px;

@@ -1,5 +1,9 @@
 .root {
-  @apply grid grid-cols-3 py-8 container z-10;
+  @apply py-8 z-10 bg-white border-b-2;
+}
+
+.main {
+  @apply grid grid-cols-3 container;
 }
 
 .logoContainer {
@@ -23,7 +27,7 @@
 }
 
 .alt {
-  @apply text-white;
+  @apply text-white bg-transparent border-0;
 }
 
 .langSelector {

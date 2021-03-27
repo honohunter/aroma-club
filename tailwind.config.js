@@ -21,14 +21,7 @@ module.exports = {
       // lg: '1920px',
       // => @media
     },
-    backgroundColor: {
-      transparent: 'transparent',
-      black: {
-        900: '#212322',
-        hover: '#313533',
-        DEFAULT: '#000',
-      },
-    },
+
     extend: {
       fontSize: {
         '10px': '10px',
@@ -44,6 +37,14 @@ module.exports = {
         '28px': '28px',
         '32px': '32px',
         '34px': '34px',
+      },
+      backgroundColor: {
+        transparent: 'transparent',
+        black: {
+          900: '#212322',
+          hover: '#313533',
+          DEFAULT: '#000',
+        },
       },
       textColor: {
         black: {

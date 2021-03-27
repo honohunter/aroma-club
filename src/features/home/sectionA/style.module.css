@@ -15,5 +15,5 @@
 }
 
 .caption {
-  @apply font-PT text-20px;
+  @apply text-20px;
 }
