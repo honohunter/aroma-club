@@ -8,6 +8,7 @@
   src: local('GothamPro-Bold'), url('./assets/fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
     url('./assets/fonts/GothamPro-Bold.woff') format('woff'),
     url('./assets/fonts/GothamPro-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
   src: local('GothamSSm-Book'), url('./assets/fonts/GothamSSm-Book.eot?#iefix') format('embedded-opentype'),
     url('./assets/fonts/GothamSSm-Book.woff') format('woff'),
     url('./assets/fonts/GothamSSm-Book.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
   src: local('PTSerif-Italic'), url('./assets/fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
     url('./assets/fonts/PTSerif-Italic.woff') format('woff'),
     url('./assets/fonts/PTSerif-Italic.ttf') format('truetype');
+  font-display: swap;
 }
 
 body {
