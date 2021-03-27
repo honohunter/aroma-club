@@ -3,7 +3,7 @@
 
   height: 767px;
   background-image: linear-gradient(rgba(33, 35, 34, 0.3), rgba(33, 35, 34, 0.3)),
-    url('../../../assets/images/bg-image-1.png');
+    url('../../../assets/images/bg-image-1.webp');
   background-size: cover;
   background-position: center;
 }

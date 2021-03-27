@@ -2,10 +2,10 @@ import React from 'react';
 
 import styles from './style.module.css';
 
-import image1 from '../../../assets/images/image-1.png';
-import image2 from '../../../assets/images/image-2.png';
-import image3 from '../../../assets/images/image-3.png';
-import image4 from '../../../assets/images/image-4.png';
+import image1 from '../../../assets/images/image-1.webp';
+import image2 from '../../../assets/images/image-2.webp';
+import image3 from '../../../assets/images/image-3.webp';
+import image4 from '../../../assets/images/image-4.webp';
 
 import Tabs, { Tab } from '../../../components/tabs';
 import SpecialGrid from '../../../components/specialGrid';
