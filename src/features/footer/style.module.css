@@ -1,0 +1,63 @@
+.root {
+  @apply bg-black-900;
+}
+
+.main {
+  @apply container px-8 text-white;
+}
+
+.topContainer {
+  @apply flex flex-row py-11 border-white border-b-2;
+}
+
+.linksContainer {
+  @apply grid grid-cols-4;
+}
+
+.linkCaption {
+  @apply uppercase font-GP font-bold text-14px pb-3;
+}
+
+.links {
+  @apply font-GS text-13px pb-3;
+}
+
+.contactContainer {
+  @apply flex-grow flex flex-col items-center justify-between ml-auto;
+
+  max-width: 426px;
+}
+
+.title {
+  @apply text-center pb-3;
+}
+
+.subtitle {
+  @apply text-center font-GS text-13px;
+}
+
+.contactInfoContainer {
+  @apply pb-3 flex flex-row w-full items-center justify-between -mx-3;
+}
+
+.contactInfo {
+  @apply flex flex-col justify-center items-center mx-3;
+}
+
+.caption {
+  @apply font-GS text-11px;
+}
+
+.contactIcon {
+  @apply pb-3;
+
+  width: 35px;
+}
+
+.bottomContainer {
+  @apply flex flex-row py-7;
+}
+
+.privacy {
+  @apply font-GS text-11px pr-6;
+}
