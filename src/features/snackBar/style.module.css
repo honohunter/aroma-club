@@ -5,7 +5,7 @@
 }
 
 .main {
-  @apply grid grid-cols-5 container;
+  @apply grid grid-cols-5 container px-0;
 }
 
 .middleContainer {

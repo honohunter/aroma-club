@@ -3,7 +3,7 @@
 }
 
 .main {
-  @apply grid grid-cols-3 container;
+  @apply grid grid-cols-3 container px-0;
 }
 
 .logoContainer {

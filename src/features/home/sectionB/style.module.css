@@ -1,3 +1,7 @@
+.root {
+  @apply py-4;
+}
+
 .caption {
   @apply text-20px;
 }

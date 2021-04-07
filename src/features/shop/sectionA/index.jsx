@@ -4,17 +4,15 @@ import styles from './style.module.css';
 
 import Navbar from '../../navbar';
 
+import bg from '../../../assets/images/shop-bg.png';
+
 export default function SectionA() {
   return (
     <section className={styles.root}>
-      <Navbar alt/>
-      <div className={styles.contain}>
-        <div className="p-5">
-          <i className={styles.caption}>Our story</i>
-          <h1>
-            Great coffee beans, <br />
-            made simple…
-          </h1>
+      <Navbar />
+      <div className="container">
+        <div className={styles.imageWrapper}>
+          <img src={bg} alt="bg" />
         </div>
       </div>
     </section>

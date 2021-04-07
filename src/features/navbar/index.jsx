@@ -18,7 +18,7 @@ export default function NavBar({ alt }) {
     <div className={clsx(styles.root, alt && styles.alt)}>
       <div className={styles.main}>
         <div className={styles.leftContainer}>
-          <Link to="/" className={styles.navigationItem}>
+          <Link to="/shop" className={styles.navigationItem}>
             Shop
           </Link>
           <Link to="/" className={styles.navigationItem}>

@@ -1,0 +1,36 @@
+.root {
+  @apply flex flex-col py-4;
+}
+
+.main {
+  @apply container flex flex-row pt-12;
+}
+
+.drawer {
+  min-width: 320px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.text {
+  @apply text-13px font-GS pb-4;
+
+  line-height: 24px;
+}
+
+.navSort {
+  @apply container flex flex-row px-4 py-2 border-black justify-between items-center font-GS text-12px my-4;
+
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.select {
+  @apply bg-transparent;
+}
+
+.productsContainer1 {
+  @apply grid grid-cols-3 gap-6 py-6;
+}
