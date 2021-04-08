@@ -9,7 +9,7 @@
 }
 
 .contain {
-  @apply container text-white flex-grow flex items-center;
+  @apply container px-4 text-white flex-grow flex items-center;
 
   margin-top: -112px;
 }

@@ -3,7 +3,7 @@
 }
 
 .main {
-  @apply container px-8 text-white;
+  @apply container px-4 text-white;
 }
 
 .topContainer {

@@ -1,11 +1,12 @@
 .root {
-  @apply pb-10 relative;
+  @apply mb-5 relative;
 
   width: 285px;
+  height: 314px;
 }
 
 .imageWrapper {
-  @apply mb-3 flex justify-center items-center;
+  @apply flex justify-center items-center;
 
   height: 259px;
   width: 100%;

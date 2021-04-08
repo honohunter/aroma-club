@@ -5,11 +5,15 @@ import styles from './style.module.css';
 import Tabs, { Tab } from '../../../components/tabs';
 import IconButton from '../../../components/iconButton';
 import ProductCard from '../../../components/productCard';
+import ProductSpecialCard from '../../../components/productSpecialCard';
+import Button from '../../../components/button';
 
 import gridIcon from '../../../assets/icons/grid.svg';
 import listIcon from '../../../assets/icons/list.svg';
+import checkIcon from '../../../assets/icons/check.svg';
 
 import image from '../../../assets/images/product.png';
+import image2 from '../../../assets/images/product_2.png';
 import logo from '../../../assets/images/logo_2.png';
 
 export default function SectionA() {
@@ -56,7 +60,46 @@ export default function SectionA() {
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" />
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
-            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" best/>
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" best />
+          </div>
+          <div className={styles.infoContainer}>
+            <div className="flex">
+              <img alt="icon" src={checkIcon} className="mr-5" />
+              <p className="text-13px font-GS items-center">Voor 23:00 besteld, morgen in huis</p>
+            </div>
+            <div className="flex">
+              <img alt="icon" src={checkIcon} className="mr-5" />
+              <p className="text-13px font-GS items-center">Deskundig advies in onze showroom </p>
+            </div>
+            <div className="flex">
+              <img alt="icon" src={checkIcon} className="mr-5" />
+              <p className="text-13px font-GS items-center">Gratis bezorgd</p>
+            </div>
+          </div>
+          <div className={styles.productsContainer2}>
+            <div className="row-span-2 col-span-2">
+              <ProductSpecialCard
+                image={image2}
+                name="Not sure which machine suits you?"
+                text="Absolutely free of charge "
+              >
+                <i className="text-20px">Machine selection</i>
+                <h1 className="paragraph">Find The Right JURA Machine For You</h1>
+                <p className="text-13px font-GS">
+                  Bang & Olufsen connected speakers give you an immersive listening experience throughout the home. Our
+                  diverse selection means there&#39;s a perfect speaker to match any space and taste - from bold living
+                  rooms to minimal kitchens. Find yours now.
+                </p>
+                <div className="pt-14">
+                  <Button>Start now</Button>
+                </div>
+              </ProductSpecialCard>
+            </div>
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" />
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" />
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
+            <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" />
           </div>
         </div>
       </div>

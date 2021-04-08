@@ -3,5 +3,5 @@
 }
 
 .imageWrapper {
-  /* @apply px-10; */
+  @apply flex justify-center;
 }

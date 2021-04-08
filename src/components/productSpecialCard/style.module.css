@@ -1,0 +1,31 @@
+.root {
+  @apply flex flex-col;
+
+  width: 605px;
+  height: 621px;
+}
+
+.main {
+  @apply flex flex-row pb-3 flex-grow;
+}
+
+.content {
+  @apply flex-grow pl-10 pr-6 flex flex-col justify-center;
+
+  background-color: #f9f9f9;
+}
+
+.imageWrapper {
+  @apply flex;
+
+  /* width: 291px; */
+  height: 100%;
+}
+
+.name {
+  @apply font-GP text-13px flex-grow;
+}
+
+.text {
+  @apply font-GS text-13px;
+}
