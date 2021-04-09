@@ -16,7 +16,7 @@ import checkIcon from '../../../assets/icons/check.svg';
 
 import image from '../../../assets/images/product.png';
 import image2 from '../../../assets/images/product_2.png';
-import logo from '../../../assets/images/logo_2.png';
+import logo from '../../../assets/images/logo_2.svg';
 
 export default function SectionA() {
   return (
@@ -32,7 +32,7 @@ export default function SectionA() {
       <div className={styles.main}>
         <div className={styles.drawer}>
           <div>
-            <img src={logo} alt="logo" className="mb-6" />
+            <img src={logo} alt="logo" className={styles.logo} />
             <div>
               <DropdownList text="Bediening">
                 <Checkbox label="Knoppen" />

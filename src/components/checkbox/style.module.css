@@ -3,5 +3,5 @@
 }
 
 .icon {
-  @apply mr-4;
+  @apply flex mr-4;
 }

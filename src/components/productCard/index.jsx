@@ -6,7 +6,7 @@ import tag from '../../assets/images/best.png';
 
 export default function ProductCard({ image, name, price, promotion, best }) {
   return (
-    <div className={styles.root}>
+    <button type="button" className={styles.root}>
       {best && <img src={tag} alt="img" className={styles.bestTag} />}
       <div className={styles.imageWrapper}>
         <img src={image} alt="img" />
@@ -22,6 +22,6 @@ export default function ProductCard({ image, name, price, promotion, best }) {
           <p className={styles.price}>{price}</p>
         )}
       </div>
-    </div>
+    </button>
   );
 }
