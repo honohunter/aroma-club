@@ -1,0 +1,7 @@
+.root {
+  @apply flex items-center py-2;
+}
+
+.icon {
+  @apply mr-4;
+}

@@ -7,6 +7,8 @@ import IconButton from '../../../components/iconButton';
 import ProductCard from '../../../components/productCard';
 import ProductSpecialCard from '../../../components/productSpecialCard';
 import Button from '../../../components/button';
+import DropdownList from '../../../components/dropdownList';
+import Checkbox from '../../../components/checkbox';
 
 import gridIcon from '../../../assets/icons/grid.svg';
 import listIcon from '../../../assets/icons/list.svg';
@@ -30,7 +32,31 @@ export default function SectionA() {
       <div className={styles.main}>
         <div className={styles.drawer}>
           <div>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="mb-6" />
+            <div>
+              <DropdownList text="Bediening">
+                <Checkbox label="Knoppen" />
+                <Checkbox label="Touch" />
+              </DropdownList>
+              <DropdownList text="Capiciteit">
+                <Checkbox label="Slank" />
+                <Checkbox label="Krachtig" />
+              </DropdownList>
+              <DropdownList text="Koffiespecialiteiten">
+                <Checkbox label="Met melkfunctie" />
+                <Checkbox label="Zonder melkfunctie" />
+              </DropdownList>
+              <DropdownList text="serie">
+                <Checkbox label="A-Serie" />
+                <Checkbox label="D-Serie" />
+                <Checkbox label="E-Serie" />
+                <Checkbox label="ENA-Serie" />
+                <Checkbox label="GIGA-Serie" />
+                <Checkbox label="J-Serie" />
+                <Checkbox label="S-Serie" />
+                <Checkbox label="Z-Serie" />
+              </DropdownList>
+            </div>
           </div>
         </div>
         <div className={styles.content}>
@@ -100,6 +126,13 @@ export default function SectionA() {
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} />
             <ProductCard name="JURA A1 Piano Black" price="€669.99" image={image} promotion="€669.99" />
+          </div>
+          <div className={styles.loadMoreContainer}>
+            <div className={styles.divider} />
+            <button type="button" className={styles.button}>
+              <p className="text-15px font-GP">Load more</p>
+            </button>
+            <div className={styles.divider} />
           </div>
         </div>
       </div>

@@ -1,0 +1,21 @@
+.root {
+  @apply container grid grid-cols-2 gap-4 pb-16 pt-4;
+}
+
+.contactContainer {
+  @apply bg-black-900 p-12 text-white;
+}
+
+.schedule {
+  @apply font-GS text-11px;
+
+  line-height: 19px;
+  width: 217px;
+}
+
+.location {
+  @apply text-11px font-GS;
+
+  line-height: 22px;
+  width: 200px;
+}

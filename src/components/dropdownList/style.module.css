@@ -1,0 +1,11 @@
+.button {
+  @apply flex items-center my-5;
+}
+
+.icon {
+  @apply ml-4;
+}
+
+.title {
+  @apply uppercase text-14px font-GP;
+}

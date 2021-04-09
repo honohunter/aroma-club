@@ -1,0 +1,11 @@
+.root {
+  @apply mx-auto py-20;
+
+  max-width: 810px;
+}
+
+.title {
+  @apply text-center pb-16;
+
+  border-bottom: 2px solid #f0f0f0;
+}

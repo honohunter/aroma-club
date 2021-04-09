@@ -1,0 +1,19 @@
+.accordion {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.accordionSummary {
+  @apply flex flex-row py-6 w-full;
+}
+
+.title {
+  @apply text-24px font-GP flex-grow text-left;
+}
+
+.icon {
+  @apply text-24px font-GP;
+}
+
+.content {
+  @apply pb-6 text-14px font-GS;
+}

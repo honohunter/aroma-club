@@ -42,3 +42,19 @@
 .productsContainer2 {
   @apply grid grid-rows-3 grid-cols-3 gap-7 py-6;
 }
+
+.loadMoreContainer {
+  @apply flex items-center justify-center;
+}
+
+.divider {
+  @apply bg-black flex-grow;
+
+  height: 1px;
+}
+
+.button {
+  @apply px-8 py-3 border-black;
+
+  border: 1px solid;
+}
