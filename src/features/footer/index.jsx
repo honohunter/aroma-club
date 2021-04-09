@@ -98,8 +98,8 @@ export default function Footer() {
         <div className={styles.topContainer}>
           <div className={styles.linksContainer}>
             {Object.keys(links).map((key, index) => (
-              <div className="mr-14">
-                <ul key={index}>
+              <div key={index} className="mr-14">
+                <ul>
                   <li className={styles.linkCaption}>{key}</li>
                   {links[key].map((ele, idx) => (
                     <li key={idx} className={styles.links}>
